@@ -1,0 +1,95 @@
+/* Your custom styles */
+
+.ss{margin: auto;
+width: 100%;
+padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 35%;
+    background-color:#BFBCBA
+    
+}
+        /* Necessary for full page carousel*/
+.nav_button{
+    font-weight: bold;
+    font-size: 20px;
+}
+        
+
+        /* Navigation*/
+
+        .navbar {
+            background-color: transparent;
+            color:#00243B;
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #00243B;
+        }
+
+        footer.page-footer {
+            background-color: #1C2331;
+            margin-top: 0;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .navbar {
+                background-color: #00243B;
+            }
+            .display-3 {
+                font-size: 2rem;
+                margin-top: 6rem;
+            }
+            h3 {
+                font-size: 1rem;
+            }
+        }
+
+        @media only screen and (max-width: 667px) {
+            .display-3 {
+                font-size: 3rem;
+            }
+        }
+
+        
+     
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+            body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+            .html{
+                z-index: 0;
+            }
+            .bt{
+                color: black;
+            }
+            .cardstyle{
+                color: darkred;
+                
+            }
+             html,
+        body,
+        .view {
+            height: 100%;
+        }
+             .carousel,
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+ 
